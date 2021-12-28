@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 export const Form = () => {
     useEffect(() => {
-        fetch('http://7aamin.pythonanywhere.com/get/token')
+        fetch('https://7aamin.pythonanywhere.com/get/token')
         .then(response => response.json())
         .then(datas => {setToken(datas.token); console.log(datas.token)});
     }, []);
@@ -13,7 +13,7 @@ export const Form = () => {
     const [token, setToken] = useState("");
     const sendData = () => {
         (async function() {
-            let response = await fetch('http://7aamin.pythonanywhere.com/save/client_info', {
+            let response = await fetch('https://7aamin.pythonanywhere.com/save/client_info', {
                 method: "POST",
                 body: JSON.stringify({
                     token: token,
