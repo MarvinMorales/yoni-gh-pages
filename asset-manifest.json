@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/yoni-gh-pages/static/css/main.cf51344b.css",
-    "main.js": "/yoni-gh-pages/static/js/main.ff9bc3dd.js",
-    "static/js/787.ca6e8967.chunk.js": "/yoni-gh-pages/static/js/787.ca6e8967.chunk.js",
-    "static/media/p1.png": "/yoni-gh-pages/static/media/p1.c2aa2071c5382f3195f2.png",
-    "static/media/logo.png": "/yoni-gh-pages/static/media/logo.b1dbf76ba3f71e75da46.png",
-    "index.html": "/yoni-gh-pages/index.html",
-    "main.cf51344b.css.map": "/yoni-gh-pages/static/css/main.cf51344b.css.map",
-    "main.ff9bc3dd.js.map": "/yoni-gh-pages/static/js/main.ff9bc3dd.js.map",
-    "787.ca6e8967.chunk.js.map": "/yoni-gh-pages/static/js/787.ca6e8967.chunk.js.map"
+    "main.css": "/static/css/main.cf51344b.css",
+    "main.js": "/static/js/main.5e783b8f.js",
+    "static/js/787.ca6e8967.chunk.js": "/static/js/787.ca6e8967.chunk.js",
+    "static/media/p1.png": "/static/media/p1.c2aa2071c5382f3195f2.png",
+    "static/media/logo.png": "/static/media/logo.b1dbf76ba3f71e75da46.png",
+    "index.html": "/index.html",
+    "main.cf51344b.css.map": "/static/css/main.cf51344b.css.map",
+    "main.5e783b8f.js.map": "/static/js/main.5e783b8f.js.map",
+    "787.ca6e8967.chunk.js.map": "/static/js/787.ca6e8967.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cf51344b.css",
-    "static/js/main.ff9bc3dd.js"
+    "static/js/main.5e783b8f.js"
   ]
 }
