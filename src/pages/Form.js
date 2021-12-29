@@ -4,7 +4,7 @@ export const Form = () => {
     useEffect(() => {
         fetch('https://7aamin.pythonanywhere.com/get/token')
         .then(response => response.json())
-        .then(datas => {setToken(datas.token); console.log(datas.token)});
+        .then(datas => {setToken(datas.token); console.log(datas)});
     }, []);
     const [name, setName] = React.useState("");
     const [email, setEmail] = React.useState("");
@@ -21,8 +21,8 @@ export const Form = () => {
                     email: email,
                     phone: phone,
                     address: address
-                }), headers: {"Content-type": "application/json; charset=UTF-8"}
-            }); let final = await response.json(); console.log(final)
+                }), headers: {"Content-type": "application/json; charset=UTF-8", "Authorization": token}
+            }); let final = await response.json(); console.log(final);
         })();
     }
     return (
@@ -37,7 +37,7 @@ export const Form = () => {
                 <div className="form-body">
                     <div className="rows-form">
                         <p>Your Name & Lastname</p>
-                        <input onChange={ev => setName(ev.target.value)} autoFocus type="text" required/>
+                        <input onChange={ev => setName(ev.target.value)} type="text" required/>
                     </div>
                     <div className="rows-form">
                         <p>Your E-mail</p>
