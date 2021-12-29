@@ -9,7 +9,7 @@ export const Header = (props) => {
     return (
         <header>
             <img src={require('../images/logo.png')}/>
-            <i className="fas fa-ellipsis-v menuIcon" onClick={() => setMenu(!menu)}></i>
+            <i className="fas fa-bars menuIcon" onClick={() => setMenu(!menu)}></i>
             <ul className={menu ? "menu2 animationIn" : "menu2 animationOut"}>
                 <li onClick={() => {setHeader("Home"); setMenu(false); navigate('/')}}>Home</li>
                 <li onClick={() => {setHeader("About"); setMenu(false); navigate('/')}}>About</li>

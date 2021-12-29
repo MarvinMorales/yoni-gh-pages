@@ -36,15 +36,15 @@ export const Form = () => {
                 </div>
                 <div className="form-body">
                     <div className="rows-form">
-                        <p>Your Name & Lastname</p>
+                        <p>Name & Lastname</p>
                         <input onChange={ev => setName(ev.target.value)} type="text" required/>
                     </div>
                     <div className="rows-form">
-                        <p>Your E-mail</p>
+                        <p>E-mail</p>
                         <input onChange={ev => setEmail(ev.target.value)} type="email" required/>
                     </div>
                     <div className="rows-form">
-                        <p>Your phone number</p>
+                        <p>Phone number</p>
                         <input onChange={ev => setPhone(ev.target.value)} type="text" required/>
                     </div>
                     <div className="rows-form">
