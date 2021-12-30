@@ -22,7 +22,7 @@ export const Form = () => {
                     phone: phone,
                     address: address
                 }), headers: {"Content-type": "application/json; charset=UTF-8", "Authorization": token}
-            }); let final = await response.json(); console.log(final);
+            }); let final = await response.json(); console.log(final); final['success'] && alert("Thank you!, your data has been saved!")
         })();
     }
     return (

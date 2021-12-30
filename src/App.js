@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { Home } from "./pages/Home";
 import { Reviews } from "./pages/Reviews";
 import { Header } from "./pages/Header";
+import { About } from "./pages/About";
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -23,6 +24,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home index="Data1"/>}/>
             <Route path="/reviews" element={<Reviews/>}/>
+            <Route path="/about" element={<About/>}/>
           </Routes>
         </Router>
       </React.Fragment>
