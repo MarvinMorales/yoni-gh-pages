@@ -16,7 +16,7 @@ export const About = () => {
                     We want to facilitate that process for you. We have bought houses traditionally, probate, divorce, inherited, extensive repairs, 
                     job relocation, tax liens, pre-foreclosure, bad tenants, and unforeseen reasons. <br/> <br/> 
                     We want to make this process as smooth as possible, working around your time frame and terms that work mutually for
-                    both parties. We have extended experience in real estate and will guide you in throughout the process as we do what
+                    both parties. We have extended experience in real estate and will guide you throughout the process as we do what
                     we believe is the best for you, putting your interest before ours. We look forward to talking to you 
                     and making this process a smooth one for you and your family..
                    </div>
