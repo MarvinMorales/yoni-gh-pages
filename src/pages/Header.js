@@ -20,6 +20,8 @@ export const Header = (props) => {
                 <li onClick={() => {setHeader("About"); navigate('/about')}} style={{borderBottom:`4px solid rgba(0, 140, 255, ${header === "About" ? 1 : 0})`, color:`${header === "About" ? "#29A8DF" : "rgb(82, 82, 82)"}`}}>About</li>
                 <li onClick={() => {setHeader("Reviews"); navigate('reviews')}} style={{borderBottom:`4px solid rgba(0, 140, 255, ${header === "Reviews" ? 1 : 0})`, color:`${header === "Reviews" ? "#29A8DF" : "rgb(82, 82, 82)"}`}}>Reviews</li>
             </ul>
+            <h1 style={{display:"none"}}>We buy houses in every state</h1>
+            <h2 style={{display:"none"}}>We buy houses in every state</h2>
       </header>
     );
 }
