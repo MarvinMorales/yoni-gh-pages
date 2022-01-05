@@ -84,7 +84,7 @@ header ul li:hover {
   height: 400px;
   margin-top: 90px;
   display: flex;
-  background-color: red;
+  background-color: rgb(192, 192, 192);
   overflow: hidden;
 }
 
@@ -452,7 +452,7 @@ header ul li:hover {
     height: 300px;
     margin-top: 0px;
     display: flex;
-    background-color: red;
+    background-color: rgb(192, 192, 192);
     overflow: hidden;
   }
   
