@@ -29,16 +29,23 @@ header {
     height: 100px;
     background-color: white;
     display: flex;
+    flex-flow: row wrap;
     position: fixed;
     z-index: 1000;
     align-items: center;
     justify-content: space-between;
-    padding: 0 300px;
+    padding: 0 10vw;
     box-shadow: 0 0 17px rgba(0, 0, 0, 0.096);
 }
 
-header img {
-    height: 60%;
+.brand_logo {
+    width: 145px;
+    height: auto;
+}
+
+.brand_logo img {
+    width: 100%;
+    height: auto;
 }
 
 header ul {
@@ -330,6 +337,30 @@ header ul li:hover {
     padding-top: 10px;
     display: flex;
     flex-wrap: wrap;
+}
+
+
+.locations-container {
+    width: 50%;
+    padding-top: 100px;
+}
+
+.locations-container .location {
+     width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 30px;
+    box-shadow: 1px 1px 27px rgba(0, 0, 0, 0.055);
+    background-color: rgb(255, 255, 255);
+    flex-grow: 1;
+}
+
+.locations-container .location .location-name {
+    font-size: 20px;
+    color: rgb(71, 71, 71);
+    font-weight: 600;
+    margin-bottom: 5px;
 }
 
 .city {

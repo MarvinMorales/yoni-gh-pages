@@ -4,6 +4,8 @@ import { Home } from "./pages/Home";
 import { Reviews } from "./pages/Reviews";
 import { Header } from "./pages/Header";
 import { About } from "./pages/About";
+import { Service } from "./pages/Service";
+import { Locations } from "./pages/Locations";
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -25,6 +27,8 @@ function App() {
             <Route path="/" element={<Home index="Data1"/>}/>
             <Route path="/reviews" element={<Reviews/>}/>
             <Route path="/about" element={<About/>}/>
+            <Route path="/service" element={<Service/>}/>
+            <Route path="/locations" element={<Locations/>}/>
           </Routes>
         </Router>
       </React.Fragment>
