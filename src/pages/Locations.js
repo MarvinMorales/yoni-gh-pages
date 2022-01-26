@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import { Footer } from "./Footer";
 
 export const Locations = () => {
@@ -19,13 +20,14 @@ export const Locations = () => {
                     </div>
                     <article className="locations-container">
 
-                        <div className="location">
-                             <h3 className="location-name">Los Angeles, CA </h3>
-                        </div>
+                    <Link to={"/losangeles"} className="location">
+                        <h3 className="location-name">Los Angeles, CA </h3>
+                    </Link>
 
-                         <div className="location">
-                             <h3 className="location-name">Atlanta, GA</h3>
-                        </div>
+                    <Link to={"/atlanta"} className="location">
+                        <h3 className="location-name">Atlanta, GA</h3>
+                    </Link>
+                    
                     </article>
                 </section>
                 <Footer/>

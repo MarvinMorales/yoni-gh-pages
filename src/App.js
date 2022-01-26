@@ -6,6 +6,8 @@ import { Header } from "./pages/Header";
 import { About } from "./pages/About";
 import { Service } from "./pages/Service";
 import { Locations } from "./pages/Locations";
+import { Losangeles } from "./pages/Losangeles";
+import { Atlanta } from "./pages/Atlanta";
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -29,6 +31,8 @@ function App() {
             <Route path="/about" element={<About/>}/>
             <Route path="/service" element={<Service/>}/>
             <Route path="/locations" element={<Locations/>}/>
+             <Route path="/losangeles" element={<Losangeles/>}/>
+              <Route path="/atlanta" element={<Atlanta/>}/>
           </Routes>
         </Router>
       </React.Fragment>
