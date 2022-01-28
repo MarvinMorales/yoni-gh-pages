@@ -22,92 +22,92 @@ export const Blogs = () => {
 
                             <div className="_grid">
                                  <div className="_grid-image">
-                                    <Link to={"/"}>
+                                    <Link to={"/bloglisting"}>
                                         <img src={require('../images/blog.jpg')} alt=""/>
                                     </Link>
                                  </div>
                                  <div className="description">
                                      <h3>Buying, and have heard horror</h3>
                                      <p>Yoni was professional and personal! He never made me feel uncomfortable and helped me every step of the way!</p>
-                                     <Link to={"/"} className="readmore">Read More...</Link>
+                                     <Link to={"/bloglisting"} className="readmore">Read More...</Link>
                                  </div>
                             </div>
 
                             <div className="_grid">
                                  <div className="_grid-image">
-                                    <Link to={"/"}>
+                                    <Link to={"/bloglisting"}>
                                         <img src={require('../images/blog.jpg')} alt=""/>
                                     </Link>
                                  </div>
                                  <div className="description">
                                      <h3>Buying, and have heard horror</h3>
                                      <p>Yoni was professional and personal! He never made me feel uncomfortable and helped me every step of the way!</p>
-                                     <Link to={"/"} className="readmore">Read More...</Link>
+                                     <Link to={"/bloglisting"} className="readmore">Read More...</Link>
                                  </div>
                             </div>
                             
                             <div className="_grid">
                                  <div className="_grid-image">
-                                     <Link to={"/"}>
+                                     <Link to={"/bloglisting"}>
                                         <img src={require('../images/blog.jpg')} alt=""/>
                                     </Link>
                                  </div>
                                  <div className="description">
                                      <h3>Buying, and have heard horror</h3>
                                      <p>Yoni was professional and personal! He never made me feel uncomfortable and helped me every step of the way!</p>
-                                     <Link to={"/"} className="readmore">Read More...</Link>
+                                     <Link to={"/bloglisting"} className="readmore">Read More...</Link>
                                  </div>
                             </div>
                          
                             <div className="_grid">
                                  <div className="_grid-image">
-                                    <Link to={"/"}>
+                                    <Link to={"/bloglisting"}>
                                         <img src={require('../images/blog.jpg')} alt=""/>
                                     </Link>
                                  </div>
                                  <div className="description">
                                      <h3>Buying, and have heard horror</h3>
                                      <p>Yoni was professional and personal! He never made me feel uncomfortable and helped me every step of the way!</p>
-                                     <Link to={"/"} className="readmore">Read More...</Link>
+                                     <Link to={"/bloglisting"} className="readmore">Read More...</Link>
                                  </div>
                             </div>
                            
                             <div className="_grid">
                                  <div className="_grid-image">
-                                     <Link to={"/"}>
+                                     <Link to={"/bloglisting"}>
                                         <img src={require('../images/blog.jpg')} alt=""/>
                                     </Link>
                                  </div>
                                  <div className="description">
                                      <h3>Buying, and have heard horror</h3>
                                      <p>Yoni was professional and personal! He never made me feel uncomfortable and helped me every step of the way!</p>
-                                     <Link to={"/"} className="readmore">Read More...</Link>
+                                     <Link to={"/bloglisting"} className="readmore">Read More...</Link>
                                  </div>
                             </div>
                             
                             <div className="_grid">
                                  <div className="_grid-image">
-                                     <Link to={"/"}>
+                                     <Link to={"/bloglisting"}>
                                         <img src={require('../images/blog.jpg')} alt=""/>
                                     </Link>
                                  </div>
                                  <div className="description">
                                      <h3>Buying, and have heard horror</h3>
                                      <p>Yoni was professional and personal! He never made me feel uncomfortable and helped me every step of the way!</p>
-                                     <Link to={"/"} className="readmore">Read More...</Link>
+                                     <Link to={"/bloglisting"} className="readmore">Read More...</Link>
                                  </div>
                             </div>
                             
                             <div className="_grid">
                                  <div className="_grid-image">
-                                    <Link to={"/"}>
+                                    <Link to={"/bloglisting"}>
                                         <img src={require('../images/blog.jpg')} alt=""/>
                                     </Link>
                                  </div>
                                  <div className="description">
                                      <h3>Buying, and have heard horror</h3>
                                      <p>Yoni was professional and personal! He never made me feel uncomfortable and helped me every step of the way!</p>
-                                     <Link to={"/"} className="readmore">Read More...</Link>
+                                     <Link to={"/bloglisting"} className="readmore">Read More...</Link>
                                  </div>
                             </div>
 
