@@ -20,15 +20,15 @@ export const Header = (props) => {
                 <li onClick={() => {setHeader("Service"); setMenu(false); navigate('/service')}}>Service</li>
                 <li onClick={() => {setHeader("Reviews"); setMenu(false); navigate('/reviews')}}>Reviews</li>
                  <li onClick={() => {setHeader("Locations"); setMenu(false); navigate('/locations')}}>Locations</li>
-                 <li onClick={() => {setHeader(""); setMenu(false); navigate('')}}>Blog</li>
+                 <li onClick={() => {setHeader("Blogs"); setMenu(false); navigate('/blogs')}}>Blogs</li>
             </ul>
             <ul className="menu1">
                 <li onClick={() => {setHeader("Home"); navigate('/')}} style={{borderBottom:`1px solid rgba(0, 140, 255, ${header === "Home" ? 1 : 0})`, color:`${header === "Home" ? "#29A8DF" : "rgb(82, 82, 82)"}`}}>Home</li>
                 <li onClick={() => {setHeader("About"); navigate('/about')}} style={{borderBottom:`1px solid rgba(0, 140, 255, ${header === "About" ? 1 : 0})`, color:`${header === "About" ? "#29A8DF" : "rgb(82, 82, 82)"}`}}>About</li>
                 <li onClick={() => {setHeader("Service"); navigate('/service')}} style={{borderBottom:`4px solid rgba(0, 140, 255, ${header === "Service" ? 1 : 0})`, color:`${header === "Service" ? "#29A8DF" : "rgb(82, 82, 82)"}`}}>Service</li>
-                <li onClick={() => {setHeader("Reviews"); navigate('reviews')}} style={{borderBottom:`1px solid rgba(0, 140, 255, ${header === "Reviews" ? 1 : 0})`, color:`${header === "Reviews" ? "#29A8DF" : "rgb(82, 82, 82)"}`}}>Reviews</li>
-                 <li onClick={() => {setHeader("Locations"); navigate('locations')}} style={{borderBottom:`1px solid rgba(0, 140, 255, ${header === "Locations" ? 1 : 0})`, color:`${header === "Locations" ? "#29A8DF" : "rgb(82, 82, 82)"}`}}>Locations</li>
-                <li onClick={() => {setHeader(""); navigate('')}} style={{borderBottom:`1px solid rgba(0, 140, 255, ${header === "" ? 1 : 0})`, color:`${header === "" ? "#29A8DF" : "rgb(82, 82, 82)"}`}}>Blog</li>
+                <li onClick={() => {setHeader("Reviews"); navigate('/reviews')}} style={{borderBottom:`1px solid rgba(0, 140, 255, ${header === "Reviews" ? 1 : 0})`, color:`${header === "Reviews" ? "#29A8DF" : "rgb(82, 82, 82)"}`}}>Reviews</li>
+                 <li onClick={() => {setHeader("Locations"); navigate('/locations')}} style={{borderBottom:`1px solid rgba(0, 140, 255, ${header === "Locations" ? 1 : 0})`, color:`${header === "Locations" ? "#29A8DF" : "rgb(82, 82, 82)"}`}}>Locations</li>
+                <li onClick={() => {setHeader("Blogs"); navigate('/blogs')}} style={{borderBottom:`1px solid rgba(0, 140, 255, ${header === "Blogs" ? 1 : 0})`, color:`${header === "Blogs" ? "#29A8DF" : "rgb(82, 82, 82)"}`}}>Blogs</li>
             </ul>
             <h1 style={{display:"none"}}>We buy houses in every state</h1>
             <h2 style={{display:"none"}}>We buy houses in every state</h2>

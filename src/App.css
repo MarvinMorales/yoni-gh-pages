@@ -346,7 +346,7 @@ header ul li:hover {
 }
 
 .locations-container .location {
-     width: 100%;
+    width: 100%;
     height: auto;
     border-radius: 10px;
     margin-bottom: 15px;
@@ -472,8 +472,8 @@ header ul li:hover {
 
 @media screen and (max-width: 640px) {
     .locations-container {
-            width: 100%;
-            padding: 50px 20px 0 20px;
+        width: 100%;
+        padding: 50px 20px 0 20px;
     }
 }
 
@@ -805,3 +805,131 @@ header ul li:hover {
         color: rgb(255, 208, 0);
     }
 }
+
+//BLOG PAGE
+
+._blog-listing {
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding-top: 100px;
+    padding: 0 30px;
+}
+
+@media (min-width: 576px) {
+    ._blog-listing {
+        padding: 0 10vw;
+    }
+}
+
+._blog-listing ._heading {
+    color: #444;
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+@media (min-width: 992px) {
+    ._blog-listing ._heading {
+        font-size: 40px;
+    }
+}
+
+._blog-listing p {
+    font-size: 16px;
+    color: #444;
+    text-align: center;
+}
+
+._blog-listing ._lising-list {
+    display: flex;
+    flex-flow: wrap;
+    width: 100%;
+    margin: 30px -0px;
+}
+
+@media (min-width: 576px) {
+    ._blog-listing ._lising-list {
+        margin: 30px -10px;
+    }
+}
+
+._blog-listing ._lising-list ._grid {
+    width: calc(100%);
+    margin: 0;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: #ccc 0 0 10px;
+    background: #fff;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 576px) {
+    ._blog-listing ._lising-list ._grid {
+        width: calc(100% / 2 - 20px);
+        margin: 0 10px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 992px) {
+    ._blog-listing ._lising-list ._grid {
+        width: calc(100% / 3 - 20px);
+    }
+}
+
+._blog-listing ._lising-list ._grid ._grid-image {
+    width: 100%;
+    float: left;
+    height: 200px;
+    position: relative;
+}
+
+._blog-listing ._lising-list ._grid ._grid-image img {
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%;
+}
+
+._blog-listing ._lising-list ._grid .description {
+    width: 100%;
+    float: left;
+    text-align: left;
+    padding: 20px;
+}
+
+._blog-listing ._lising-list ._grid .description h3 {
+    font-size: 18px;
+    color: #444;
+}
+
+@media (min-width: 992px) {
+    ._blog-listing ._lising-list ._grid .description h3 {
+        font-size: 21px;
+    }
+}
+
+._blog-listing ._lising-list ._grid .description p {
+    text-align: left;
+    color: #444;
+}
+
+._blog-listing ._lising-list ._grid .description .readmore {
+    border: solid 1px #008cff;
+    border-radius: 5px;
+    padding: 7px 20px;
+    font-weight: 500;
+    margin-top: 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+._blog-listing ._lising-list ._grid .description .readmore:hover {
+    background: #008cff;
+    color: #fff;
+}
+
+/*# sourceMappingURL=blog.css.map */

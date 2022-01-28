@@ -8,6 +8,7 @@ import { Service } from "./pages/Service";
 import { Locations } from "./pages/Locations";
 import { Losangeles } from "./pages/Losangeles";
 import { Atlanta } from "./pages/Atlanta";
+import { Blogs } from "./pages/Blogs";
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -33,6 +34,7 @@ function App() {
             <Route path="/locations" element={<Locations/>}/>
              <Route path="/losangeles" element={<Losangeles/>}/>
               <Route path="/atlanta" element={<Atlanta/>}/>
+               <Route path="/blogs" element={<Blogs/>}/>
           </Routes>
         </Router>
       </React.Fragment>
