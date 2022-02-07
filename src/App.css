@@ -345,7 +345,7 @@ header ul li:hover {
     padding-top: 100px;
     margin-bottom: 30px;
 }
-s
+
 .locations-container .location {
     width: 100%;
     height: auto;
@@ -814,6 +814,7 @@ s
     }
 }
 
+/*BLOG PAGE*/
 
 #section-blogs {
     padding-top: 120px;
@@ -1123,7 +1124,7 @@ s
     color: #fff;
 }
 
-//SERVICE PAGE
+/*SERVICE PAGE*/
 
 ._padding {
     padding-top: 0 !important;
