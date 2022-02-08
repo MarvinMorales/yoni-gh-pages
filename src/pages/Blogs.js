@@ -16,7 +16,7 @@ export const Blogs = () => {
             <React.Fragment>
                 <section id="section-blogs">
                     <div className="_blog-listing">
-                        <div className="_heading">Blog Listing</div> 
+                        <h1 className="_heading">Blog Listing</h1> 
                         <p>Wow! Made buying a house such a breeze! I was new to home buying, and have heard horror stories from friends and family about terrible agents. Yoni was professional and personal! He never made me feel uncomfortable and helped me every step of the way!</p> 
                         <div className="_lising-list">
 

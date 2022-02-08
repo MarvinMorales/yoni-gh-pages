@@ -330,6 +330,8 @@ header ul li:hover {
     position: fixed;
     margin-top: 100px;
     border-right: 1px dotted rgb(0, 0, 0);
+    font-size: 40px;
+    font-weight: normal;
 }
 
 .reviews-container {
@@ -1173,6 +1175,7 @@ header ul li:hover {
     width: 100%;
     float: left;
     border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
     overflow: hidden;
 }
 

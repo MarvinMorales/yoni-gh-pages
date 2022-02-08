@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Footer } from "./Footer";
+import {Helmet} from "react-helmet";
 
 export const Locations = () => {
     const [loading, setLoading] = useState(true);
@@ -14,9 +15,13 @@ export const Locations = () => {
     } else {
         return (
             <React.Fragment>
+            <Helmet>
+                <title>Sell My House Quickly In South Central LA, Victorville, CA</title>
+                <meta name="description" content="Sell Old house for cash in Huntington Park, Barstow, CA. We buy houses and property in Riverside County, Huntington Park, Victorville, CA and South Central LA." />
+            </Helmet>
                 <section id="section-reviews">
                     <div className="ourClients">
-                        <div className="ourClientsInner">Sell your houses for <br/><span className="span1">cheap and quickly</span></div>
+                        <h1 className="ourClientsInner">Sell your houses for <br/><span className="span1">cheap and quickly</span></h1>
                     </div>
                     <article className="locations-container">
                    <div className="about-container-2 pd-top-20">

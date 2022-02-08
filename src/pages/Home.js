@@ -5,12 +5,17 @@ import 'react-awesome-slider/dist/styles.css';
 import { Header } from "./Header";
 import { Form } from "./Form";
 import { Footer } from "./Footer";
+import {Helmet} from "react-helmet";
 
 const AutoplaySlider = withAutoplay(AwesomeSlider);
 
 export const Home = () => {
     return (
         <React.Fragment>
+            <Helmet>
+                <title>Sell My House Fast In Victorville, Claremont, Orange County, CA</title>
+                <meta name="description" content="Want to sell family house fast, we can help! We buy property in Bernardino County, San Fernando Valley, Rialto, Ontario, Bell Gardens, high desert California." />
+            </Helmet>
             
             <section className='slider' style={{height: window.screen.width < 600 ? window.screen.width/1.2777 : "100%"}}>
             <AutoplaySlider

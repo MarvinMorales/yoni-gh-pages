@@ -1,13 +1,19 @@
 import React from "react";
 import { Footer } from "./Footer";
+import {Helmet} from "react-helmet";
+
 
 export const Losangeles = () => {
     return (
         <React.Fragment>
+            <Helmet>
+                <title> Sale My Inherited Parents House With Tenants in Los Angeles, CA</title>
+                <meta name="description" content="Sale your parent’s house when moving state in Los Angeles. Get the best offer for selling your home for millennials or investors in Los Angeles, CA." />
+            </Helmet>
            <section id="section-reviews">
                 <div className="ourClients">
-                    <div className="ourClientsInner">Sell your house fast in <span className="span1">Los Angeles</span> 
-                        </div>
+                    <h1 className="ourClientsInner">Sell your house fast in <span className="span1">Los Angeles</span> 
+                        </h1>
                 </div>
                 <article className="reviews-container">
                     <div className="yoni-container"><img src={require("../images/los-angel.jpg")}/></div>

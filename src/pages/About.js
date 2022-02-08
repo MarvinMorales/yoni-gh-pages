@@ -1,12 +1,17 @@
 import React from "react";
 import { Footer } from "./Footer";
+import {Helmet} from "react-helmet";
 
 export const About = () => {
     return (
         <React.Fragment>
+            <Helmet>
+                <title>Sell House to Investor in Palmdale, Divorce Sell House in Perris, CA</title>
+                <meta name="description" content="Sell house for fast and headache free in Apple Valley and Perris, CA. Get the best offer with no extra fees in Lancaster, Apple Valley, and Yucca Valley, CA." />
+            </Helmet>
             <section id="section-reviews">
                 <div className="ourClients">
-                    <div className="ourClientsInner">Who we are & <span className="span1">what</span> do we do?</div>
+                    <h1 className="ourClientsInner">Who we are & <span className="span1">what</span> do we do?</h1>
                 </div>
                 <article className="reviews-container">
                     <div className="yoni-container"><img src={require("../images/Yoni.jfif")}/></div>

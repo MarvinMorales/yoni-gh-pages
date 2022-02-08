@@ -18,7 +18,7 @@ export const Bloglisting = () => {
                     <div className="_banner-detail">
                         <img src={require('../images/detail.jpg')} alt=""/>
                         <div className="_overlay">
-                            <div className="content-heading">Blog detail heading</div>
+                            <h1 className="content-heading">Blog detail heading</h1>
                         </div>
                     </div>
                     <div className="_blog-detail-mid">

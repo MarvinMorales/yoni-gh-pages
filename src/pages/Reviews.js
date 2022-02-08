@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Footer } from "./Footer";
+import {Helmet} from "react-helmet";
 
 export const Reviews = () => {
     const [loading, setLoading] = useState(true);
@@ -13,6 +14,10 @@ export const Reviews = () => {
     } else {
         return (
             <React.Fragment>
+            <Helmet>
+                <title>Sell My Grandparents House Fast in Montebello, Riverside, CA</title>
+                <meta name="description" content="Sell your house to investors in 7 days in Riverside and Palmdale, CA. Close the deal in as little as 3 -7 days. For more information contact us today." />
+            </Helmet>
                 <section id="section-reviews">
                     <div className="ourClients">
                         <div className="ourClientsInner">What our <span className="span1">clients</span> say about us</div>

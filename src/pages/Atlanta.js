@@ -1,13 +1,18 @@
 import React from "react";
 import { Footer } from "./Footer";
+import {Helmet} from "react-helmet";
 
 export const Atlanta = () => {
     return (
         <React.Fragment>
+            <Helmet>
+                <title> Sell My House in Atlanta, GA, House for Cash Atlanta, GA</title>
+                <meta name="description" content="Need to sell your house fast for cash in Atlanta, Roswell, GA. We help you to buy or sell houses and other properties across the USA." />
+            </Helmet>
            <section id="section-reviews">
                 <div className="ourClients">
-                    <div className="ourClientsInner">Sell your house in <span className="span1">Atlanta, Georgia</span> 
-                        </div>
+                    <h1 className="ourClientsInner">Sell your house in <span className="span1">Atlanta, Georgia</span> 
+                        </h1>
                 </div>
                 <article className="reviews-container">
                     <div className="yoni-container"><img src={require("../images/atlanta.jpeg")}/></div>
