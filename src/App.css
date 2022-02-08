@@ -34,8 +34,15 @@ header {
     z-index: 1000;
     align-items: center;
     justify-content: space-between;
-    padding: 0 10vw;
+    padding: 0 6vw;
     box-shadow: 0 0 17px rgba(0, 0, 0, 0.096);
+}
+
+header .nav_wrap {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 .brand_logo {
@@ -75,6 +82,10 @@ header ul li:hover {
     color: #29A8DF;
     cursor: pointer;
 }
+
+header ul li:last-child:hover {
+     border-bottom: 0;
+} 
 
 .menu2 {
     display: none;
@@ -364,7 +375,7 @@ header ul li:hover {
 
 @media (min-width: 992px) {
     .locations-container .location {
-       width: 40%;
+        width: 40%;
     }
 }
 
@@ -479,7 +490,11 @@ header ul li:hover {
     }
 
 }
-
+@media screen and (max-width: 1199px) {
+    header ul li {
+        padding: 0 20px;
+    }
+}
 @media screen and (max-width: 640px) {
     .locations-container {
         width: 100%;
@@ -1221,6 +1236,7 @@ header ul li:hover {
 .pd-bottom-20 {
     padding-bottom: 20px;
 }
+
 .pd-bottom-10 {
     padding-bottom: 10px;
 }
@@ -1229,7 +1245,15 @@ header ul li:hover {
     padding-left: 20px;
 }
 
-.ul_listing  li {
-        line-height: 1.5;
-        list-style-type: square;
+.ul_listing li {
+    line-height: 1.5;
+    list-style-type: square;
+}
+
+.call_button {
+    width: auto;
+    background: #3DA0F2;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 20px;
 }
