@@ -19,6 +19,7 @@ export const Atlanta = () => {
                    <div className="about-container-2 pd-top-20">
                      <p>“I want to sell my house in Atlanta, Georgia. I can’t be actively involved in the selling process. And the agents are asking high commissions.”</p><br/>
                     <p>Does this happen to you? </p><br/>
+                    <p>If so, you’ve landed in the right place. </p><br/>
                     <p>We will buy your house for cash. It’s the easiest way to get rid of your house that has been on the market for a long period.</p><br/>
                     <p>Here are a few questions sellers ask us. </p><br/>
                     <h4 className="pd-bottom-10">How do you help to sell my house for cash in Atlanta, Georgia? </h4>
@@ -33,10 +34,14 @@ export const Atlanta = () => {
                     <p className="pd-bottom-10">Other reasons to get rid of property include divorce, probate, relocation, or other unforeseen events.</p>
 
                     <h4 className="pd-bottom-10">Can I sell my house fast in Roswell, Georgia? </h4>
-                    <p className="pd-bottom-10">No, we don’t charge any fee or commission. You receive the full amount in cash and offer no fees. We cover all closing costs. </p>
+                    <p className="pd-bottom-10">Yes, we purchase houses in Roswell, Georgia. And we buy all types of properties: multi-family homes, single-family homes, grocery stores, apartment buildings, and laundromats.</p>
 
-                    <h4 className="pd-bottom-10">But my home requires a lot of repair work…</h4>
-                     <p className="pd-bottom-10">You need not worry! We buy your house in as-is condition. <br/> Connect with us today to sell your home in the fastest way possible.  </p>
+                    <h4 className="pd-bottom-10">Do you charge any fee?</h4>
+                     <p className="pd-bottom-10">No, we don’t charge any fee or commission. You receive the full amount in cash and offer no fees. We cover all closing costs. </p>
+
+                     <h4 className="pd-bottom-10">But my home requires a lot of repair work…</h4>
+                     <p className="pd-bottom-10">You need not worry! We buy your house in as-is condition. </p>
+                     <p className="pd-bottom-10">Connect with us today to sell your home in the fastest way possible.</p>
                    </div>
                 </article>
             </section>
