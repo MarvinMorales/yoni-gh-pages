@@ -30,7 +30,7 @@ export const Locations = () => {
                     <p className="pd-bottom-10">“And the repair and renovation is so frustrating.”</p>
 
                     <h4 className="pd-bottom-10">We Feel You!!</h4>
-                    <p className="pd-bottom-10">Our team understands the pain of selling the house. Talking to the agents that promise BEST RESULTS, but not deliver. Dealing with contractors to renovate or stage the home. And waiting for the money to come, which usually happens after 2-3 years. All this is so costly and time-taking. </p>
+                    <p className="pd-bottom-10">Our team understands the pain of selling the house. Talking to the agents that promise BEST RESULTS, but Don't deliver. Dealing with contractors to renovate or stage the home, And waiting for the money to come, which usually happens after 2-3 years. All this is so costly and time-taking. </p>
 
                     <p className="pd-bottom-10">“So, can I <strong>sell my house quickly?</strong>” </p>
                     <p className="pd-bottom-10">Yes, you can!</p>
