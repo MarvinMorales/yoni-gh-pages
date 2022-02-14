@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 
 export const Header = (props) => {
     const navigate = useNavigate();
-    const [header, setHeader] = React.useState("Home");
+    const [header, setHeader] = React.useState("");
     const [menu, setMenu] = useState(false);
 
     return (
