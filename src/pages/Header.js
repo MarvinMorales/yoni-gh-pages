@@ -31,7 +31,7 @@ export const Header = (props) => {
                 <li onClick={() => {setHeader("Reviews"); navigate('/reviews')}} style={{borderBottom:`1px solid rgba(0, 140, 255, ${header === "Reviews" ? 1 : 0})`, color:`${header === "Reviews" ? "#29A8DF" : "rgb(82, 82, 82)"}`}}>Reviews</li>
                  <li onClick={() => {setHeader("Locations"); navigate('/locations')}} style={{borderBottom:`1px solid rgba(0, 140, 255, ${header === "Locations" ? 1 : 0})`, color:`${header === "Locations" ? "#29A8DF" : "rgb(82, 82, 82)"}`}}>Locations</li>
                 <li onClick={() => {setHeader("Blogs"); navigate('/blogs')}} style={{borderBottom:`1px solid rgba(0, 140, 255, ${header === "Blogs" ? 1 : 0})`, color:`${header === "Blogs" ? "#29A8DF" : "rgb(82, 82, 82)"}`}}>Blogs</li>
-                <li><a href="tel:9493255813" className="call_button">Call: 9493255813</a></li>
+                <li><a href="tel:323-553-5700" className="call_button">Call: 323-553-5700</a></li>
             </ul>
             </div>
             <h1 style={{display:"none"}}>We buy houses in every state</h1>

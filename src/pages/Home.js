@@ -5,7 +5,7 @@ import 'react-awesome-slider/dist/styles.css';
 import { Header } from "./Header";
 import { Form } from "./Form";
 import { Footer } from "./Footer";
-import {Helmet} from "react-helmet";
+import { Helmet } from "react-helmet";
 
 const AutoplaySlider = withAutoplay(AwesomeSlider);
 
@@ -86,7 +86,7 @@ export const Home = () => {
                 <div className='row'><i class="fas fa-circle-notch" style={{marginRight: 10, color:'#29A8DF'}}></i>Once we agree on a time frame we work with that time frame.   </div>
                 <div className='row'><i class="fas fa-circle-notch" style={{marginRight: 10, color:'#29A8DF'}}></i>Our offers are cash and you will not pay any fees.    </div>
                 <div className='row'><i class="fas fa-circle-notch" style={{marginRight: 10, color:'#29A8DF'}}></i>We only work with credited attorneys , title and escrow officers so you're in great hands.  </div>
-                <div className='row'><i class="fas fa-circle-notch" style={{marginRight: 10, color:'#29A8DF'}}></i>We have hundreds of licensed contractors so once we see your house we understand the process to renovated this property. </div>
+                <div className='row'><i class="fas fa-circle-notch" style={{marginRight: 10, color:'#29A8DF'}}></i>We have hundreds of licensed contractors so once we see your house we understand the process to renovate this property. </div>
                 <div className='row'><i class="fas fa-circle-notch" style={{marginRight: 10, color:'#29A8DF'}}></i>We have purchased every type of real estate, single family home, Multi family, apartments buildings, grocery stores and even Laundromats. We are the most qualified buyers in the area.</div>
                 </section>
                 </div>
