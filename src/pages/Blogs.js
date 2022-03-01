@@ -5,6 +5,7 @@ import { Footer } from "./Footer";
 export const Blogs = () => {
     const [loading, setLoading ] = useState(true);
     const [data, setData ] = useState(true);
+    const image_url = 'https://admin.sellmyhousequickfast.com/media/';
 
 
     const apiGet = () => {
@@ -39,13 +40,13 @@ export const Blogs = () => {
                         {data.results.map((item) => (
                             <div className="_grid">
                                  <div className="_grid-image">
-                                    <Link to={"/bloglisting"}>
-                                        <img src={require('../images/blog.jpg')} alt=""/>
+                                    <Link to={item.short_url}>
+                                        <img src={image_url+item.featured_image} alt=""/>
                                     </Link>
                                  </div>
                                  <div className="description">
-                                     <h3>{item.title}</h3>
-                                     <p>{item.description}</p>
+                                     <h3>{item.title.substring(0, 25)}...</h3>
+                                     <p>{item.short_description.substring(0, 95)}...</p>
                                      <Link to={item.short_url} className="readmore">Read More...</Link>
                                  </div>
                             </div>
