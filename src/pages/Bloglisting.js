@@ -1,10 +1,32 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, useParams} from "react-router-dom";
 import { Footer } from "./Footer";
+import axios from 'axios';
 
-export const Bloglisting = () => {
+
+
+export const Bloglisting = (props) => {
     const [loading, setLoading] = useState(true);
+    const [blog, setBlog] = useState({});
+    const image_url = 'https://admin.sellmyhousequickfast.com/media/';
+    const {slug, id} = useParams();
+
+
     useEffect(() => setTimeout(() => setLoading(false), 2000))
+    useEffect(() => {
+        // const slug = props.params.id;
+        console.log(slug, id);
+        const fetchData = async () => {
+            try {
+                const res = await axios.get('https://admin.sellmyhousequickfast.com/api/posts/' + id)
+                setBlog(res.data);
+            }
+            catch (err) {
+
+            }
+        };
+        fetchData();
+    }, [id]);
     if (loading) {
         return (
             <div className="loadingScreen">
@@ -16,34 +38,13 @@ export const Bloglisting = () => {
             <React.Fragment>
                 <section id="blog-details">
                     <div className="_banner-detail">
-                        <img src={require('../images/detail.jpg')} alt=""/>
+                        <img src={image_url+blog.featured_image} alt=""/>
                         <div className="_overlay">
-                            <h1 className="content-heading">Blog detail heading</h1>
+                            <h1 className="content-heading">{blog.title}</h1>
                         </div>
                     </div>
-                    <div className="_blog-detail-mid">
-                        <h2>Blog detail</h2>
-                        <p>We are local family owned investors who actively invest in Real Estate.</p>
-                        <p>
-                            We have done thousands of transactions and understand the process of selling a house, which might be the hardest transaction for a family.
-                        </p>
-                        <h3>We want to make this</h3>
-                        <p>
-                            We want to facilitate that process for you. We have bought houses traditionally, probate, divorce, inherited, extensive repairs, job relocation, tax liens, pre-foreclosure, bad tenants, and unforeseen reasons.
-                        </p> 
-                        <h4>We want to make this</h4>
-                        <p>
-                        We want to make this process as smooth as possible, working around your time frame and terms that work mutually for both parties. We have extended experience in real estate and will guide you throughout the process as we do what we believe is the best for you, putting your interest before ours. We look forward to talking to you and making this process a smooth one for you and your family.
-                    </p>
-                    <div className="grapgic">
-                        <img src={require('../images/detail.jpg')} alt=""/>
-                    </div>
-                    <ul>
-                        <li> We have done thousands of transactions and understand the process of selling</li>
-                        <li> We have done thousands of understand the process of selling</li>
-                        <li> We have done thousands of transactions andselling</li>
-                    </ul>
-                </div>
+                    <div class="_blog-detail-mid" dangerouslySetInnerHTML={ {__html: blog.content} } />
+                   
             </section>
                 <Footer/>
             </React.Fragment>

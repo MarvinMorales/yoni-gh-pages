@@ -36,7 +36,7 @@ function App() {
              <Route path="/losangeles" element={<Losangeles/>}/>
               <Route path="/atlanta" element={<Atlanta/>}/>
                <Route path="/blogs" element={<Blogs/>}/>
-                <Route path="/bloglisting" element={<Bloglisting/>}/>
+                <Route path="/blog/:slug/:id" element={<Bloglisting/>}/>
           </Routes>
         </Router>
       </React.Fragment>

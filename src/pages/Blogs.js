@@ -40,14 +40,14 @@ export const Blogs = () => {
                         {data.results.map((item) => (
                             <div className="_grid">
                                  <div className="_grid-image">
-                                    <Link to={item.short_url}>
+                                    <Link to={item.short_url+item.id}>
                                         <img src={image_url+item.featured_image} alt=""/>
                                     </Link>
                                  </div>
                                  <div className="description">
                                      <h3>{item.title.substring(0, 25)}...</h3>
                                      <p>{item.short_description.substring(0, 95)}...</p>
-                                     <Link to={item.short_url} className="readmore">Read More...</Link>
+                                     <Link to={item.short_url+item.id} className="readmore">Read More...</Link>
                                  </div>
                             </div>
                             ))}
