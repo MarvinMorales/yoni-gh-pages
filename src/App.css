@@ -90,10 +90,6 @@ header ul li a:hover {
     cursor: pointer;
 }
 
-header ul li:last-child:hover {
-     border-bottom: 4px solid rgba(255,0,0,0);
-} 
-
 .menu2 {
     display: none;
 }
@@ -1264,8 +1260,10 @@ header ul li:last-child:hover {
 .call_button {
     width: auto;
     background: #3DA0F2;
-    color: #ffffff;
+    color: #ffffff!important;
     text-decoration: none;
     padding: 20px;
     font-size: 18px;
+    height: auto!important;
+    border: 0!important;
 }
