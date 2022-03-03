@@ -61,8 +61,13 @@ header ul {
     align-items: center;
     height: 100%;
 }
-
 header ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+header ul li a {
     padding: 0 30px;
     font-size: 15px;
     display: flex;
@@ -71,13 +76,15 @@ header ul li {
     height: 100%;
     border-bottom: 4px solid rgba(255, 0, 0, 0);
     color: rgb(82, 82, 82);
+    text-decoration: none;
 }
 
-header ul li:nth-child(1) {
+header ul li a.active {
     color: #29A8DF;
+    border-bottom: 4px solid rgb(0, 140, 255);
 }
 
-header ul li:hover {
+header ul li a:hover {
     border-bottom: 4px solid rgb(0, 140, 255);
     color: #29A8DF;
     cursor: pointer;
@@ -567,6 +574,10 @@ header ul li:last-child:hover {
     }
 
     .menu2 li {
+        height: auto;
+    }
+
+    .menu2 li a {
         width: 100%;
         padding: 20px 30px;
         font-size: 15px;
@@ -574,7 +585,7 @@ header ul li:last-child:hover {
         align-items: center;
         justify-content: center;
         height: auto;
-        border-bottom: 4px solid rgba(255, 0, 0, 0);
+        border-bottom: 0!important;
         color: rgb(82, 82, 82);
     }
 
