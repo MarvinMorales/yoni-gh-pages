@@ -5,7 +5,7 @@ import 'react-awesome-slider/dist/styles.css';
 import { Header } from "./Header";
 import { Form } from "./Form";
 import { Footer } from "./Footer";
-import { Helmet } from "react-helmet";
+import { Helmet } from 'react-helmet-async';
 
 const AutoplaySlider = withAutoplay(AwesomeSlider);
 
@@ -15,13 +15,13 @@ export const Home = () => {
             <Helmet>
                 <title>Sell My House Fast In Victorville, Claremont, Orange County, CA</title>
                 <meta name="description" content="Want to sell family house fast, we can help! We buy property in Bernardino County, San Fernando Valley, Rialto, Ontario, Bell Gardens, high desert California." />
-                <meta property="og:site_name" content="We buy houses" />
+                <meta property="og:site_name" content="Sell My House Fast In Victorville, Claremont, Orange County, CA" />
                 <meta property="og:title" content="We are local family owned investors who actively invest in Real Estate" />
-                <meta property="og:description" content="We have done thousands of transactions and understand the process of selling a house, which might be the hardest transaction for a family" />
-                <meta property="og:url" content="www.sellmyhousequickfast.com/" />
+                <meta property="og:description" content="Want to sell family house fast, we can help! We buy property in Bernardino County, San Fernando Valley, Rialto, Ontario, Bell Gardens, high desert California." />
+                <meta property="og:url" content="https://sellmyhousequickfast.com/" />
                 <meta property="og:type" content="article" />
                 <meta property="og:locale" content="en_US" />
-                <meta property="article:publisher" content="www.sellmyhousequickfast.com/" />
+                <meta property="article:publisher" content="https://sellmyhousequickfast.com/" />
                 <meta property="article:section" content="We buy houses, sell my house, looking for selling your house, we can buy it" />
                 <meta property="article:tag" content="We buy houses, sell my house" />
             </Helmet>

@@ -1,6 +1,6 @@
 import React from "react";
 import { Footer } from "./Footer";
-import {Helmet} from "react-helmet";
+import { Helmet } from 'react-helmet-async';
 
 export const About = () => {
     return (
@@ -8,6 +8,7 @@ export const About = () => {
             <Helmet>
                 <title>Sell House to Investor in Palmdale, Divorce Sell House in Perris, CA</title>
                 <meta name="description" content="Sell house for fast and headache free in Apple Valley and Perris, CA. Get the best offer with no extra fees in Lancaster, Apple Valley, and Yucca Valley, CA." />
+                <link rel="canonical" href="https://sellmyhousequickfast.com/about"/>
                 <meta property="og:site_name" content="Sell My House Fast In Victorville, Claremont, Orange County, CA" />
                 <meta property="og:title" content="Sell House to Investor in Palmdale, Divorce Sell House in Perris, CA" />
                 <meta property="og:description" content="Sell house for fast and headache free in Apple Valley and Perris, CA. Get the best offer with no extra fees in Lancaster, Apple Valley, and Yucca Valley, CA." />

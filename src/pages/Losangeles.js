@@ -1,6 +1,6 @@
 import React from "react";
 import { Footer } from "./Footer";
-import {Helmet} from "react-helmet";
+import { Helmet } from 'react-helmet-async';
 
 
 export const Losangeles = () => {
@@ -9,6 +9,15 @@ export const Losangeles = () => {
             <Helmet>
                 <title> Sale My Inherited Parents House With Tenants in Los Angeles, CA</title>
                 <meta name="description" content="Sale your parent’s house when moving state in Los Angeles. Get the best offer for selling your home for millennials or investors in Los Angeles, CA." />
+                <meta property="og:site_name" content="Sell My House Fast In Victorville, Claremont, Orange County, CA" />
+                <meta property="og:title" content="Sale My Inherited Parents House With Tenants in Los Angeles, CA" />
+                <meta property="og:description" content="Sale your parent’s house when moving state in Los Angeles. Get the best offer for selling your home for millennials or investors in Los Angeles, CA." />
+                <meta property="og:url" content="https://sellmyhousequickfast.com/losangeles" />
+                <meta property="og:type" content="article" />
+                <meta property="og:locale" content="en_US" />
+                <meta property="article:publisher" content="https://sellmyhousequickfast.com/losangeles" />
+                <meta property="article:section" content="We buy houses, sell my house, looking for selling your house, we can buy it" />
+                <meta property="article:tag" content="We buy houses, sell my house" />
             </Helmet>
            <section id="section-reviews">
                 <div className="ourClients">

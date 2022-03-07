@@ -1,23 +1,23 @@
 import React from "react";
 import { Footer } from "./Footer";
-import {Helmet} from "react-helmet";
+import { Helmet } from 'react-helmet-async';
 
 export const Service = () => {
 return (
 <React.Fragment>
-            <Helmet>
-                <title>Sell My House With Tenants in San Bernardino, Palmdale, Orange, CA</title>
-                <meta name="description" content="Want to buy or sell your house with tenants. We help you to sell your property instantly in Riverside, Orange, Palmdale, Moreno Valley, and Inglewood, CA." />
-                <meta property="og:site_name" content="Sell My Grandparents House Fast in Montebello, Riverside, CA" />
-                <meta property="og:title" content="Sell My House With Tenants in San Bernardino, Palmdale, Orange, CA" />
-                <meta property="og:description" content="Want to buy or sell your house with tenants. We help you to sell your property instantly in Riverside, Orange, Palmdale, Moreno Valley, and Inglewood, CA." />
-                <meta property="og:url" content="https://sellmyhousequickfast.com/service" />
-                <meta property="og:type" content="article" />
-                <meta property="og:locale" content="en_US" />
-                <meta property="article:publisher" content="https://sellmyhousequickfast.com/service" />
-                <meta property="article:section" content="We buy houses, sell my house, looking for selling your house, we can buy it" />
-                <meta property="article:tag" content="We buy houses, sell my house" />
-            </Helmet>
+    <Helmet>
+        <title>Sell My House With Tenants in San Bernardino, Palmdale, Orange, CA</title>
+        <meta name="description" content="Want to buy or sell your house with tenants. We help you to sell your property instantly in Riverside, Orange, Palmdale, Moreno Valley, and Inglewood, CA." />
+        <meta property="og:site_name" content="Sell My Grandparents House Fast in Montebello, Riverside, CA" />
+        <meta property="og:title" content="Sell My House With Tenants in San Bernardino, Palmdale, Orange, CA" />
+        <meta property="og:description" content="Want to buy or sell your house with tenants. We help you to sell your property instantly in Riverside, Orange, Palmdale, Moreno Valley, and Inglewood, CA." />
+        <meta property="og:url" content="https://sellmyhousequickfast.com/service" />
+        <meta property="og:type" content="article" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="article:publisher" content="https://sellmyhousequickfast.com/service" />
+        <meta property="article:section" content="We buy houses, sell my house, looking for selling your house, we can buy it" />
+        <meta property="article:tag" content="We buy houses, sell my house" />
+    </Helmet>
     <section id="blog-details">
         <div className="_banner-detail">
             <img src={require('../images/detail.jpg')} alt=""/>

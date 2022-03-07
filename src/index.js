@@ -1,22 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ReactSEO from 'react-seo';
-import {useParams} from "react-router-dom";
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 
-ReactSEO.startMagic([{url:'/',isFullMatch:false, urlParams:[/(.+\/|\/[^\/]+)/g]}],renderDOM);
-
-
-function renderDOM(){
-  ReactDOM.render(
-    <React.StrictMode>
+ReactDOM.render(
+  <React.StrictMode>
+  <HelmetProvider>
       <App />
-    </React.StrictMode>,
-    document.getElementById('root')
-  );
-}
+  </HelmetProvider>
+  </React.StrictMode>,
+  document.getElementById('root')
+);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

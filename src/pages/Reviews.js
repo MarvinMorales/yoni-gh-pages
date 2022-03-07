@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Footer } from "./Footer";
-import {Helmet} from "react-helmet";
+import { Helmet } from 'react-helmet-async';
 
 export const Reviews = () => {
     const [loading, setLoading] = useState(true);
