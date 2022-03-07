@@ -8,6 +8,15 @@ export const About = () => {
             <Helmet>
                 <title>Sell House to Investor in Palmdale, Divorce Sell House in Perris, CA</title>
                 <meta name="description" content="Sell house for fast and headache free in Apple Valley and Perris, CA. Get the best offer with no extra fees in Lancaster, Apple Valley, and Yucca Valley, CA." />
+                <meta property="og:site_name" content="Sell My House Fast In Victorville, Claremont, Orange County, CA" />
+                <meta property="og:title" content="Sell House to Investor in Palmdale, Divorce Sell House in Perris, CA" />
+                <meta property="og:description" content="Sell house for fast and headache free in Apple Valley and Perris, CA. Get the best offer with no extra fees in Lancaster, Apple Valley, and Yucca Valley, CA." />
+                <meta property="og:url" content="https://sellmyhousequickfast.com/about" />
+                <meta property="og:type" content="article" />
+                <meta property="og:locale" content="en_US" />
+                <meta property="article:publisher" content="https://sellmyhousequickfast.com/about" />
+                <meta property="article:section" content="We buy houses, sell my house, looking for selling your house, we can buy it" />
+                <meta property="article:tag" content="We buy houses, sell my house" />
             </Helmet>
             <section id="section-reviews">
                 <div className="ourClients">

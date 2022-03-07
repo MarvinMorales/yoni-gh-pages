@@ -15,6 +15,15 @@ export const Home = () => {
             <Helmet>
                 <title>Sell My House Fast In Victorville, Claremont, Orange County, CA</title>
                 <meta name="description" content="Want to sell family house fast, we can help! We buy property in Bernardino County, San Fernando Valley, Rialto, Ontario, Bell Gardens, high desert California." />
+                <meta property="og:site_name" content="We buy houses" />
+                <meta property="og:title" content="We are local family owned investors who actively invest in Real Estate" />
+                <meta property="og:description" content="We have done thousands of transactions and understand the process of selling a house, which might be the hardest transaction for a family" />
+                <meta property="og:url" content="www.sellmyhousequickfast.com/" />
+                <meta property="og:type" content="article" />
+                <meta property="og:locale" content="en_US" />
+                <meta property="article:publisher" content="www.sellmyhousequickfast.com/" />
+                <meta property="article:section" content="We buy houses, sell my house, looking for selling your house, we can buy it" />
+                <meta property="article:tag" content="We buy houses, sell my house" />
             </Helmet>
             
             <section className='slider' style={{height: window.screen.width < 600 ? window.screen.width/1.2777 : "100%"}}>

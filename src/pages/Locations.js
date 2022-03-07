@@ -8,9 +8,24 @@ export const Locations = () => {
     useEffect(() => setTimeout(() => setLoading(false), 2000))
     if (loading) {
         return (
-            <div className="loadingScreen">
-                <img className="loadingGif" src={require("../images/loading.gif")}/>
-            </div>
+            <>
+                <Helmet>
+                    <title>Sell My House Quickly In South Central LA, Victorville, CA</title>
+                    <meta name="description" content="Sell Old house for cash in Huntington Park, Barstow, CA. We buy houses and property in Riverside County, Huntington Park, Victorville, CA and South Central LA." />
+                    <meta property="og:site_name" content="Sell My House Fast In Victorville, Claremont, Orange County, CA" />
+                    <meta property="og:title" content="Sell My House Quickly In South Central LA, Victorville, CA" />
+                    <meta property="og:description" content="Sell Old house for cash in Huntington Park, Barstow, CA. We buy houses and property in Riverside County, Huntington Park, Victorville, CA and South Central LA." />
+                    <meta property="og:url" content="https://sellmyhousequickfast.com/locations" />
+                    <meta property="og:type" content="article" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="article:publisher" content="https://sellmyhousequickfast.com/locations" />
+                    <meta property="article:section" content="We buy houses, sell my house, looking for selling your house, we can buy it" />
+                    <meta property="article:tag" content="We buy houses, sell my house" />
+                </Helmet>
+                <div className="loadingScreen">
+                    <img className="loadingGif" src={require("../images/loading.gif")}/>
+                </div>
+            </>
         );
     } else {
         return (
@@ -18,6 +33,15 @@ export const Locations = () => {
             <Helmet>
                 <title>Sell My House Quickly In South Central LA, Victorville, CA</title>
                 <meta name="description" content="Sell Old house for cash in Huntington Park, Barstow, CA. We buy houses and property in Riverside County, Huntington Park, Victorville, CA and South Central LA." />
+                <meta property="og:site_name" content="Sell My House Fast In Victorville, Claremont, Orange County, CA" />
+                <meta property="og:title" content="Sell My House Quickly In South Central LA, Victorville, CA" />
+                <meta property="og:description" content="Sell Old house for cash in Huntington Park, Barstow, CA. We buy houses and property in Riverside County, Huntington Park, Victorville, CA and South Central LA." />
+                <meta property="og:url" content="https://sellmyhousequickfast.com/locations" />
+                <meta property="og:type" content="article" />
+                <meta property="og:locale" content="en_US" />
+                <meta property="article:publisher" content="https://sellmyhousequickfast.com/locations" />
+                <meta property="article:section" content="We buy houses, sell my house, looking for selling your house, we can buy it" />
+                <meta property="article:tag" content="We buy houses, sell my house" />
             </Helmet>
                 <section id="section-reviews">
                     <div className="ourClients">

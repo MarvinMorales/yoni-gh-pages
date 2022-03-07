@@ -8,6 +8,15 @@ export const Atlanta = () => {
             <Helmet>
                 <title> Sell My House in Atlanta, GA, House for Cash Atlanta, GA</title>
                 <meta name="description" content="Need to sell your house fast for cash in Atlanta, Roswell, GA. We help you to buy or sell houses and other properties across the USA." />
+                <meta property="og:site_name" content="Sell My House Fast In Victorville, Claremont, Orange County, CA" />
+                <meta property="og:title" content="Sell My House in Atlanta, GA, House for Cash Atlanta, GA" />
+                <meta property="og:description" content="Need to sell your house fast for cash in Atlanta, Roswell, GA. We help you to buy or sell houses and other properties across the USA." />
+                <meta property="og:url" content="https://sellmyhousequickfast.com/atlanta" />
+                <meta property="og:type" content="article" />
+                <meta property="og:locale" content="en_US" />
+                <meta property="article:publisher" content="https://sellmyhousequickfast.com/atlanta" />
+                <meta property="article:section" content="We buy houses, sell my house, looking for selling your house, we can buy it" />
+                <meta property="article:tag" content="We buy houses, sell my house" />
             </Helmet>
            <section id="section-reviews">
                 <div className="ourClients">

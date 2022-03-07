@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Footer } from "./Footer";
+import {Helmet} from "react-helmet";
 
 export const Blogs = () => {
     const [loading, setLoading ] = useState(true);
@@ -24,13 +25,41 @@ export const Blogs = () => {
 
     if (loading) {
         return (
-            <div className="loadingScreen">
-                <img className="loadingGif" src={require("../images/loading.gif")}/>
-            </div>
+            <>
+                <Helmet>
+                    <title>Sell My House Fast In Victorville, Claremont, Orange County, CA</title>
+                    <meta name="description" content="Want to sell family house fast, we can help! We buy property in Bernardino County, San Fernando Valley, Rialto, Ontario, Bell Gardens, high desert California." />
+                    <meta property="og:site_name" content="Sell My House Fast In Victorville, Claremont, Orange County, CA" />
+                    <meta property="og:title" content="Sell My House Fast In Victorville, Claremont, Orange County, CA" />
+                    <meta property="og:description" content="Want to sell family house fast, we can help! We buy property in Bernardino County, San Fernando Valley, Rialto, Ontario, Bell Gardens, high desert California." />
+                    <meta property="og:url" content="https://sellmyhousequickfast.com/blogs" />
+                    <meta property="og:type" content="article" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="article:publisher" content="https://sellmyhousequickfast.com/blogs" />
+                    <meta property="article:section" content="We buy houses, sell my house, looking for selling your house, we can buy it" />
+                    <meta property="article:tag" content="We buy houses, sell my house" />
+                </Helmet>
+                <div className="loadingScreen">
+                    <img className="loadingGif" src={require("../images/loading.gif")}/>
+                </div>
+            </>
         );
     } else {
         return (
             <React.Fragment>
+            <Helmet>
+            <title>Sell My House Fast In Victorville, Claremont, Orange County, CA</title>
+                <meta name="description" content="Want to sell family house fast, we can help! We buy property in Bernardino County, San Fernando Valley, Rialto, Ontario, Bell Gardens, high desert California." />
+                <meta property="og:site_name" content="Sell My House Fast In Victorville, Claremont, Orange County, CA" />
+                <meta property="og:title" content="Sell My House Fast In Victorville, Claremont, Orange County, CA" />
+                <meta property="og:description" content="Want to sell family house fast, we can help! We buy property in Bernardino County, San Fernando Valley, Rialto, Ontario, Bell Gardens, high desert California." />
+                <meta property="og:url" content="https://sellmyhousequickfast.com/blogs" />
+                <meta property="og:type" content="article" />
+                <meta property="og:locale" content="en_US" />
+                <meta property="article:publisher" content="https://sellmyhousequickfast.com/blogs" />
+                <meta property="article:section" content="We buy houses, sell my house, looking for selling your house, we can buy it" />
+                <meta property="article:tag" content="We buy houses, sell my house" />
+            </Helmet>
                 <section id="section-blogs">
                     <div className="_blog-listing">
                         <h1 className="_heading">Blog Listing</h1> 
