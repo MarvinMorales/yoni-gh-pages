@@ -1,15 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import ReactSEO from 'react-seo';
+import {useParams} from "react-router-dom";
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+ReactSEO.startMagic([{url:'/',isFullMatch:false, urlParams:[/(.+\/|\/[^\/]+)/g]}],renderDOM);
+
+
+function renderDOM(){
+  ReactDOM.render(
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>,
+    document.getElementById('root')
+  );
+}
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
