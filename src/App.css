@@ -221,6 +221,7 @@ header ul li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-flow: column;
     font-size: 12px;
     color: rgb(110, 110, 110);
     background-color: rgb(240, 240, 240);
