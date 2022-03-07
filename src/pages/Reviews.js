@@ -11,13 +11,14 @@ export const Reviews = () => {
                 <Helmet>
                     <title>Sell My Grandparents House Fast in Montebello, Riverside, CA</title>
                     <meta name="description" content="Sell your house to investors in 7 days in Riverside and Palmdale, CA. Close the deal in as little as 3 -7 days. For more information contact us today." />
+                    <link rel="canonical" href="https://sellmyhousequickfast.com/reviews/"/>
                     <meta property="og:site_name" content="Sell My Grandparents House Fast in Montebello, Riverside, CA" />
                     <meta property="og:title" content="Sale My Inherited Parents House With Tenants in Los Angeles, CA" />
                     <meta property="og:description" content="Sell your house to investors in 7 days in Riverside and Palmdale, CA. Close the deal in as little as 3 -7 days. For more information contact us today." />
-                    <meta property="og:url" content="https://sellmyhousequickfast.com/reviews" />
+                    <meta property="og:url" content="https://sellmyhousequickfast.com/reviews/" />
                     <meta property="og:type" content="article" />
                     <meta property="og:locale" content="en_US" />
-                    <meta property="article:publisher" content="https://sellmyhousequickfast.com/reviews" />
+                    <meta property="article:publisher" content="https://sellmyhousequickfast.com/reviews/" />
                     <meta property="article:section" content="We buy houses, sell my house, looking for selling your house, we can buy it" />
                     <meta property="article:tag" content="We buy houses, sell my house" />
                 </Helmet>

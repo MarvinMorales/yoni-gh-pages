@@ -15,6 +15,7 @@ export const Home = () => {
             <Helmet>
                 <title>Sell My House Fast In Victorville, Claremont, Orange County, CA</title>
                 <meta name="description" content="Want to sell family house fast, we can help! We buy property in Bernardino County, San Fernando Valley, Rialto, Ontario, Bell Gardens, high desert California." />
+                <link rel="canonical" href="https://sellmyhousequickfast.com/"/>
                 <meta property="og:site_name" content="Sell My House Fast In Victorville, Claremont, Orange County, CA" />
                 <meta property="og:title" content="We are local family owned investors who actively invest in Real Estate" />
                 <meta property="og:description" content="Want to sell family house fast, we can help! We buy property in Bernardino County, San Fernando Valley, Rialto, Ontario, Bell Gardens, high desert California." />

@@ -29,13 +29,14 @@ export const Blogs = () => {
                 <Helmet>
                     <title>Sell My House Fast In Victorville, Claremont, Orange County, CA</title>
                     <meta name="description" content="Want to sell family house fast, we can help! We buy property in Bernardino County, San Fernando Valley, Rialto, Ontario, Bell Gardens, high desert California." />
+                    <link rel="canonical" href="https://sellmyhousequickfast.com/blogs/"/>
                     <meta property="og:site_name" content="Sell My House Fast In Victorville, Claremont, Orange County, CA" />
                     <meta property="og:title" content="Sell My House Fast In Victorville, Claremont, Orange County, CA" />
                     <meta property="og:description" content="Want to sell family house fast, we can help! We buy property in Bernardino County, San Fernando Valley, Rialto, Ontario, Bell Gardens, high desert California." />
-                    <meta property="og:url" content="https://sellmyhousequickfast.com/blogs" />
+                    <meta property="og:url" content="https://sellmyhousequickfast.com/blogs/" />
                     <meta property="og:type" content="article" />
                     <meta property="og:locale" content="en_US" />
-                    <meta property="article:publisher" content="https://sellmyhousequickfast.com/blogs" />
+                    <meta property="article:publisher" content="https://sellmyhousequickfast.com/blogs/" />
                     <meta property="article:section" content="We buy houses, sell my house, looking for selling your house, we can buy it" />
                     <meta property="article:tag" content="We buy houses, sell my house" />
                 </Helmet>
