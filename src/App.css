@@ -227,6 +227,11 @@ header ul li a:hover {
     background-color: rgb(240, 240, 240);
 }
 
+.footer2 span a {
+    color: #29A8DF;
+    font-weight: bold;
+}
+
 .form-container {
     width: 450px;
     height: 670px;
