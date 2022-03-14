@@ -139,7 +139,7 @@ header ul li a:hover {
     transform: translateY(-50%);
 }
 
-.text-info h1 {
+.text-info h3 {
     font-size: 48px;
     color: white;
 }
@@ -168,12 +168,12 @@ header ul li a:hover {
 
 .footer1 {
     width: 100%;
-    /*height: 250px;*/
-    position: absolute;
+    position: relative;
     z-index: 100;
     display: flex;
     bottom: 0;
     background-color: rgb(255, 255, 255);
+    padding-top: 20px;
     padding-bottom: 60px;
 }
 
@@ -187,18 +187,25 @@ header ul li a:hover {
 
 .section1 {
     margin-left: 300px;
+
+}
+
+.section1 h6 {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 0 10px 0;
+    color: rgb(94, 94, 94);
 }
 
 .row {
-    display: flex;
-    align-items: center;
-    font-size: 14px;
+    font-size: 15px;
     color: rgb(94, 94, 94);
     margin-bottom: 3px;
+    line-height: 1.3;
     font-family: 'Montserrat', sans-serif;
 }
 
-.footer-left h2 {
+.footer-left h2, h1 {
     color: #29A8DF;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
@@ -239,9 +246,9 @@ header ul li a:hover {
     border: 1px solid rgb(221, 221, 221);
     background-color: white;
     box-shadow: 1px 1px 40px rgba(0, 0, 0, 0.2);
-    position: absolute;
-    left: 0;
-    bottom: 30%;
+    position: fixed;
+    right: 30px;
+    top: 20vh;
 }
 
 .header-form {
@@ -261,12 +268,14 @@ header ul li a:hover {
     font-size: 30px;
     font-weight: bold;
     color: #3DA0F2;
+    margin: 0;
 }
 
 .today {
     font-size: 50px;
     font-weight: bold;
     color: #3DA0F2;
+    margin: 0;
 }
 
 .form-body {
@@ -471,7 +480,7 @@ header ul li a:hover {
 
     .form-container {
         height: 555px;
-        bottom: 10%;
+        top: 20vh;
     }
 
     .header-form {
@@ -661,7 +670,7 @@ header ul li a:hover {
         transform: translateY(-50%);
     }
 
-    .text-info h1 {
+    .text-info h3 {
         font-size: 30px;
         color: white;
     }
@@ -691,12 +700,12 @@ header ul li a:hover {
 
     .footer1 {
         width: 100%;
-        height: 250px;
         position: relative;
         background-color: rgb(255, 255, 255);
         z-index: 10;
         display: flex;
         flex-direction: column;
+        padding-top: 20px;
         padding-bottom: 20px;
     }
 
@@ -724,11 +733,11 @@ header ul li a:hover {
         font-family: 'Montserrat', sans-serif;
     }
 
-    .footer-left h2 {
+    .footer-left h2, h1 {
         color: #29A8DF;
         font-family: 'Montserrat', sans-serif;
         font-weight: bold;
-        font-size: 2em;
+        font-size: 24px;
         margin-top: 30px;
         margin-bottom: 25px;
     }
@@ -1272,4 +1281,37 @@ header ul li a:hover {
     font-size: 18px;
     height: auto!important;
     border: 0!important;
+}
+
+.slider .awssld--fill-parent {
+    position: relative!important;
+    height: 70vh !important;
+    top: inherit;
+    left: inherit;
+
+}
+.section1 ul {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.section1 ul li {
+    list-style-type: none;
+    position: relative;
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: rgb(94, 94, 94);
+    line-height: 1.3;
+    font-family: 'Montserrat', sans-serif;
+}
+.section1 ul li .fas {
+    position: absolute;
+    left: -25px;
+    top: 2px;
+}
+.mb-1 {
+    margin-bottom: 10px;
+}
+.mb-2 {
+    margin-bottom: 20px;
 }
