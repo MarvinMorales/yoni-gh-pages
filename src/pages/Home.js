@@ -92,15 +92,15 @@ export const Home = () => {
                 <section className='section1'>
                 <h1>How to sell my house instantly?</h1>
                 <p className="row">We will buy your house fast and pay you the total amount in cash. No Brokerage Fee! No Waiting! No home staging!</p>
-                <h2>Who chooses to sell the house for cash?</h2>
+                <h1>Who chooses to sell the house for cash?</h1>
                 <p className="row mb-2">Anyone who wants to sell the house quickly in San Bernardino, Riverside, Orange, Palmdale, Moreno Valley, and Inglewood, CA, contacts us. Many homeowners have avoided foreclosures. Others facing divorce or looking to sell their ancestral property also trust us. If you’re moving or are upside down in your mortgage, we will help you out.</p>
-                <h2>Sell your houses for cheap and quickly</h2>
+                <h1>Sell your houses for cheap and quickly</h1>
                 <p className="row">“I want to sell my old house, but don’t know where to start.”</p>
                 <p className="row">“The fees of real estate agents are so high.”</p>
                 <p className="row">“And the repair and renovation is so frustrating.”</p>
-                <h2>“So, can I sell my house quickly?”</h2>
+                <h1>“So, can I sell my house quickly?”</h1>
                 <p className="row">We will buy your house in Los Angeles or Atlanta immediately after looking at the condition. Sell us your home in as-is condition. This means you need not fix the major (or minor issues). All this happens in less than a month. In many cases, we close a deal in 7 DAYS.</p>
-                <h2>How can I sell my house for cash?</h2>
+                <h1>How can I sell my house for cash?</h1>
                 <p className="row mb-2">Here’s how the process works:s</p>
                 <ul>
                     <li><i class="fas fa-circle-notch" style={{marginRight: 10, color:'#29A8DF'}}></i><strong>First meeting:</strong> Provide us the basic information about your house. This you can do after talking to our buying specialist.</li>
@@ -110,15 +110,15 @@ export const Home = () => {
                 </ul>
                 <p className="row">So, what are you waiting for?</p>
                 <p className="row">Connect with us today…and get the best price for your house in Barstow, Riverside County, Huntington Park, Victorville, CA and South Central, Los Angeles</p>
-                <h2>Sell your house fast in Los Angeles</h2>
+                <h1>Sell your house fast in Los Angeles</h1>
                 <h6>Do you have these questions:</h6>
                 <p className="row">How to sell my house with tenants?</p>
                 <p className="row">Can I sell my inherited house fast?</p>
                 <p className="row">Is there a shortcut to sell my house when moving to another state?</p>
                 <p className="row">How can I sell my parents’ house?</p>
-                <h2>We’re here with all the ANSWERS!</h2>
+                <h1>We’re here with all the ANSWERS!</h1>
                 <p className="row">Connect with us to sell your house in Los Angeles. We invest in multiple properties in Los Angeles. We do all the heavy listing and bring properties back to current standards.</p>
-                <h2>Why should I sell my house to investors?</h2>
+                <h1>Why should I sell my house to investors?</h1>
                 <p className="row">You might be wondering. We will buy it for cash in the shortest time possible. You don’t have to worry about:</p>
                 <ul>
                     <li><i class="fas fa-circle-notch" style={{marginRight: 10, color:'#29A8DF'}}></i>Repairs and renovation</li>
@@ -127,16 +127,16 @@ export const Home = () => {
                     <li><i class="fas fa-circle-notch" style={{marginRight: 10, color:'#29A8DF'}}></i>Listing your home online</li>
                     <li><i class="fas fa-circle-notch" style={{marginRight: 10, color:'#29A8DF'}}></i>Staging your home</li>
                 </ul>
-                <h2>Can I also sell my house for millennials?</h2>
+                <h1>Can I also sell my house for millennials?</h1>
                 <p className="row">Yes, we buy all types of homes – be it modern properties or the ones made decades ago.</p>
-                <h2>I want to sell my house, as I am a tired landlord. Can you help?</h2>
+                <h1>I want to sell my house, as I am a tired landlord. Can you help?</h1>
                 <p className="row">Yes, we’ll help you sell your home even if you have bad tenants.</p>
-                <h2>How to get an offer for my home?</h2>
+                <h1>How to get an offer for my home?</h1>
                 <p className="row">Fill in the online form on the homepage and we’ll get back to you.</p>
-                <h2>Sell your house in Atlanta, Georgia</h2>
+                <h1>Sell your house in Atlanta, Georgia</h1>
                 <p className="row mb-1">“I want to sell my house in Atlanta, Georgia. I can’t be actively involved in the selling process. And the agents are asking high commissions.”</p>
                 <p className="row">We will buy your house for cash. It’s the easiest way to get rid of your house that has been on the market for a long period.</p>
-                <h2>How do you help to sell my house for cash in Atlanta, Georgia?</h2>
+                <h1>How do you help to sell my house for cash in Atlanta, Georgia?</h1>
                 <p className="row mb-1">You can connect with us for houses that:</p>
                 <ul>
                     <li><i class="fas fa-circle-notch" style={{marginRight: 10, color:'#29A8DF'}}></i>Require extensive repairs</li>
@@ -145,7 +145,7 @@ export const Home = () => {
                     <li><i class="fas fa-circle-notch" style={{marginRight: 10, color:'#29A8DF'}}></i>Are inherited</li>
                     <li><i class="fas fa-circle-notch" style={{marginRight: 10, color:'#29A8DF'}}></i>Have tax liens</li>
                 </ul>
-                <h2>Can I sell my house fast in Roswell, Georgia?</h2>
+                <h1>Can I sell my house fast in Roswell, Georgia?</h1>
                 <p className="row">Yes, we purchase houses in Roswell, Georgia. And we buy all types of properties: multi-family homes, single-family homes, grocery stores, apartment buildings, and laundromats.</p>
                 </section>
                 </div>
